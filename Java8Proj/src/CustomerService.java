@@ -18,7 +18,7 @@ public class CustomerService {
 	        try {
 
 	        	String cus = obj.findByName("");
-			
+			System.out.println("inside syso");
 
 	        } catch (NameNotFoundException e) {
 	            e.printStackTrace();
