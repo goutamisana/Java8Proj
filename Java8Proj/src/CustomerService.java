@@ -18,6 +18,7 @@ public class CustomerService {
 	        try {
 
 	        	String cus = obj.findByName("");
+			String cus1 = obj.findByName("goutami");
 
 	        } catch (NameNotFoundException e) {
 	            e.printStackTrace();
