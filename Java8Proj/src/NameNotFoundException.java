@@ -1,5 +1,5 @@
 
-public class NameNotFoundException extends Exception{
+public class NameNotFoundException extends RuntimeException{
 	 public NameNotFoundException(String message) {
 	        super(message);
 	    }

@@ -2,7 +2,7 @@
 public class CustomerService {
 
 	
-	 public String findByName(String name) throws NameNotFoundException {
+	 public String findByName(String name){
 
 	        if ("".equals(name)) {
 	            throw new NameNotFoundException("Name is empty!");
